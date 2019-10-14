@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% load staticfiles %}
+
+<!--==========================
+    Intro Section
+  ============================-->
+{% block content %}
+<section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+        <div class="row justify-content-center align-self-center">
+            <div class="col-md-6 intro-info order-md-first order-last" id="final_message">
+                <h2>You look alright, have fun!<br> <span> Good day!</span></h2>
+            </div>
+
+            <div class="col-md-6 intro-img order-md-last order-first">
+                <img src="{% static 'img/intro-img.svg' %}" alt="" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- #intro -->
+{% endblock %}
+
+<!-- JavaScript Libraries -->
+{% block js %}
+<script>
+    var url = window.location.href;
+    url = url.split("?")[1];
+    url = url.split("=")[1];
+    if (url == 0)
+        document.getElementById("final_message").innerHTML = " <h2>Is there something wrong?<br>Would you like to talk to your parents about <span>something?</span><br>  </h2>"
+</script>
+{% endblock %}

@@ -1,0 +1,6 @@
+redundant
+v
+sorted_set
+*.pyc
+media/test/blob*
+static_pro
