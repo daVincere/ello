@@ -18,8 +18,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import model_selection, naive_bayes, svm
 from sklearn.metrics import accuracy_score
 import nltk
-# from fastai.vision import *  # importing libraries
-# from fastai.metrics import error_rate
+from fastai.vision import *  # importing libraries
+from fastai.metrics import error_rate
 
 
 # for converting the document into a matrix of token counts

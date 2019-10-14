@@ -96,10 +96,10 @@
                     document.getElementById("loading").style.display = "none";
                     //check blob response and redirect as needed
                     if (response.data == "sadness") {
-                        window.location.href = "http://localhost:8000/mcq_ques";
+                        window.location.href = "http://localhost:8000/result?result=0";
                         return false;
                     } else {
-                        window.location.href = "http://localhost:8000/result?result=0";
+                        window.location.href = "http://localhost:8000/result?result=1";
                         return false;
                     }
 
