@@ -5,7 +5,7 @@ Django==2.1.12
 django-cors-headers==3.1.0
 django-phonenumber-field==3.0.1
 django-rest-framework==0.1.0
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 idna==2.8
 joblib==0.13.2
 nltk==3.4.5
