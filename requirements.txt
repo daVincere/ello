@@ -9,7 +9,7 @@ djangorestframework==3.10.2
 idna==2.8
 joblib==0.13.2
 nltk==3.4.5
-numpy==1.17.1
+numpy==1.22.0
 pandas==0.25.1
 PyJWT==1.7.1
 PySocks==1.7.0
