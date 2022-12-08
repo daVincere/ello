@@ -1,5 +1,5 @@
 Babel==2.7.0
-certifi==2019.6.16
+certifi==2022.12.7
 chardet==3.0.4
 Django==2.1.12
 django-cors-headers==3.1.0
